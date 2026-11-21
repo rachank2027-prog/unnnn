@@ -1,6 +1,7 @@
+
 {
   "name": "the-unchosen-multiplayer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "A mobile-first 100-player multiplayer narrative game",
   "main": "server.js",
@@ -11,6 +12,7 @@
     "node": ">=24"
   },
   "dependencies": {
+    "@netlify/server": "^0.1.6",
     "express": "^4.21.2",
     "socket.io": "^4.8.1",
     "qrcode": "^1.5.4"
